@@ -30,17 +30,17 @@ export default async function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-background text-foreground`}
       >
+        <SessionProvider session={session}>
         <ThemeProvider
           attribute="class"
           defaultTheme="system"
           enableSystem
           disableTransitionOnChange>
-        <SessionProvider session={session}>
           {children}
-        </SessionProvider>
           </ThemeProvider>
+        </SessionProvider>
     </body>
     </html >
   );
