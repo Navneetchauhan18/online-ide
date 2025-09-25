@@ -24,7 +24,7 @@ export default function Home() {
         efficiently.
       </p>
       <Link href={"/dashboard"}>
-        <Button variant={"default"} className="mb-4" size={"lg"}>
+        <Button variant={""} className="mb-4" size={"lg"}>
           Get Started
           <ArrowUpRight className="w-3.5 h-3.5" />
         </Button>

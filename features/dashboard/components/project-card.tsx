@@ -45,7 +45,7 @@ export default function ProjectCard({ project }: ProjectCardProps) {
             </div>
             <div>
               <h3 className="text-xl font-bold text-gray-900">{project.title}</h3>
-              <Badge variant="outline" className="bg-[#E93F3F15] text-[#E93F3F] border-[#E93F3F] mt-1">
+              <Badge variant="outline" className="bg-[#3fb7e915] text-[#3fb7e9] border-[#3fb7e9] mt-1">
                 {project.template}
               </Badge>
             </div>

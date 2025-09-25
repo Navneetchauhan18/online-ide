@@ -18,7 +18,7 @@ export function Header() {
                             shadow-[0_2px_20px_-2px_rgba(0,0,0,0.1)]
                             backdrop-blur-md
                             border-x border-b 
-                            border-[rgba(230,230,230,0.7)] dark:border-[rgba(70,70,70,0.7)]
+                            border-[rgba(230,230,230,0.7)] dark:border-[rgba(55, 124, 94, 0.7)]
                             w-full sm:min-w-[800px] sm:max-w-[1200px]
                             rounded-b-[28px]
                             px-4 py-2.5

@@ -205,7 +205,7 @@ export default function ProjectTable({
                 <TableCell>
                   <Badge
                     variant="outline"
-                    className="bg-[#E93F3F15] text-[#E93F3F] border-[#E93F3F]"
+                    className="bg-[#3fb7e915] text-[#3fb7e9] border-[#3fb7e9]"
                   >
                     {project.template}
                   </Badge>
