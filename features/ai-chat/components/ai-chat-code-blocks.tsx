@@ -20,8 +20,8 @@ import {
   ThumbsDown,
 } from "lucide-react"
 import { cn } from "@/lib/utils"
-import { Prism as SyntaxHighlighter } from "react-syntax-highlighter"
-import { vscDarkPlus, vs } from "react-syntax-highlighter/dist/esm/styles/prism"
+// import { Prism as SyntaxHighlighter } from "react-syntax-highlighter"
+// import { vscDarkPlus, vs } from "react-syntax-highlighter/dist/esm/styles/prism"
 import { TooltipProvider, Tooltip, TooltipContent, TooltipTrigger } from "@/components/ui/tooltip"
 import {
   DropdownMenu,
